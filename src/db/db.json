@@ -1,0 +1,23 @@
+{
+  "policies": [
+    {
+      "id": 1,
+      "type": "Health Insurance",
+      "interestRate": "6.5",
+      "offer": "20% discount on renewal",
+      "offers": "sdfdf"
+    },
+    {
+      "id": 2,
+      "type": "Life Insurance",
+      "interestRate": 6.2,
+      "offer": "Free critical illness coverage"
+    },
+    {
+      "id": 3,
+      "type": "Auto Insurance",
+      "interestRate": 3.8,
+      "offer": "No claim bonus of up to 50%"
+    }
+  ]
+}
