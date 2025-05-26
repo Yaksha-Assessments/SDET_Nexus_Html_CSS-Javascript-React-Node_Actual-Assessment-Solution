@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 1099,
+      "description": "A novel set in the Jazz Age that tells the story of Jay Gatsby's love for Daisy Buchanan."
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 899,
+      "description": "A novel about the serious issues of rape and racial inequality narrated by young Scout Finch."
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "price": 999,
+      "description": "A dystopian novel set in a totalitarian society ruled by Big Brother."
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "books": [
+        {
+          "id": 1,
+          "title": "The Great Gatsby",
+          "author": "F. Scott Fitzgerald",
+          "price": 1099
+        }
+      ],
+      "total": 1099,
+      "status": "confirmed"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "books": [
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "price": 899
+        },
+        {
+          "id": 3,
+          "title": "1984",
+          "author": "George Orwell",
+          "price": 999
+        }
+      ],
+      "total": 1898,
+      "status": "confirmed"
+    },
+    {
+      "userId": 3,
+      "books": [
+        {
+          "id": 1,
+          "title": "The Great Gatsby",
+          "author": "F. Scott Fitzgerald",
+          "price": 1099,
+          "description": "A novel set in the Jazz Age that tells the story of Jay Gatsby's love for Daisy Buchanan.",
+          "quantity": 1
+        }
+      ],
+      "total": 1099,
+      "status": "confirmed",
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 2,
+      "books": [
+        {
+          "id": 1,
+          "title": "The Great Gatsby",
+          "author": "F. Scott Fitzgerald",
+          "price": 1099,
+          "description": "A novel set in the Jazz Age that tells the story of Jay Gatsby's love for Daisy Buchanan.",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "price": 899,
+          "description": "A novel about the serious issues of rape and racial inequality narrated by young Scout Finch.",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
